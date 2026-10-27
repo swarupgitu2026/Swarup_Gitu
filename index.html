@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wanderlust Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">🌍 Roadtrips by Brio</div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Exploring India with my Buddy</h1>
+        <p>Follow my journeys across hidden paths, bustling cities,Flaura,Fauna and quiet beaches.</p>
+        <div class="filter-controls">
+            <button class="filter-btn active" data-target="all">All Stories</button>
+            <button class="filter-btn" data-target="odisha">Odisha</button>
+            <button class="filter-btn" data-target="india">India</button>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <main class="blog-container">
+        <!-- Blog Post 1 -->
+        <article class="blog-card" data-category="odisha">
+            <div class="card-image bg-tokyo">🏙️</div>
+            <div class="card-content">
+                <span class="tag">Odisha</span>
+                <h2>Lost in the Neon Lights of Tokyo</h2>
+                <p class="date">October 24, 2026</p>
+                <p class="excerpt">From tiny hidden ramen stalls to the massive tech districts, Tokyo is a city of pure contrast...</p>
+                <a href="puducherry_ooty_trip.html" class="read-more">Read Story →</a>
+            </div>
+        </article>
+
+        <!-- Blog Post 2 -->
+        <article class="blog-card" data-category="europe">
+            <div class="card-image bg-amalfi">🏖️</div>
+            <div class="card-content">
+                <span class="tag">Europe</span>
+                <h2>Sunsets Over the Amalfi Coast</h2>
+                <p class="date">September 12, 2026</p>
+                <p class="excerpt">Winding roads, lemon orchards, and the deep blue Mediterranean sea. Italy took my breath away...</p>
+                <a href="#" class="read-more">Read Story →</a>
+            </div>
+        </article>
+
+        <!-- Blog Post 3 -->
+        <article class="blog-card" data-category="asia">
+            <div class="card-image bg-bali">🌴</div>
+            <div class="card-content">
+                <span class="tag">Asia</span>
+                <h2>Chasing Waterfalls in Bali</h2>
+                <p class="date">August 05, 2026</p>
+                <p class="excerpt">Stepping away from the crowded tourist spots to find quiet green jungles and roaring falls...</p>
+                <a href="#" class="read-more">Read Story →</a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Wanderlust Journal. Coded on a Tablet.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
